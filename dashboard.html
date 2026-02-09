@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Julia Menonça | Fotografia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>Julia Menonça</h1>
+      <span>Fotografia autoral em Goiânia</span>
+    </div>
+    <nav>
+      <a href="#catalogos">Catálogos</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#historico">Histórico</a>
+      <a href="#trabalhos">Com o que trabalha</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="cover" id="perfil">
+    <div class="cover-banner">
+      <div class="cover-glow"></div>
+      <div class="cover-title" aria-label="Marca da fotógrafa">
+        <span>Julia</span>
+        Fotógrafia
+      </div>
+    </div>
+  </section>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Fotografias que traduzem afeto, textura e identidade.</h2>
+      <p>
+        Julia Menonça é fotógrafa em Goiânia e cria narrativas visuais para marcas e pessoas. Seu olhar equilibra
+        direção criativa, luz natural e cuidado com cada detalhe.
+      </p>
+    </div>
+    <div class="hero-card">
+      <h3>Resumo rápido</h3>
+      <ul>
+        <li>Base em Goiânia, atendendo todo o Brasil.</li>
+        <li>Especialista em ensaios femininos, retratos e lifestyle.</li>
+        <li>Produção completa: briefing, direção e pós-produção.</li>
+        <li>Atendimento personalizado e sensível.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="catalogos" class="section">
+    <h3 class="section-title">Catálogos</h3>
+    <p class="section-hint">Clique em um catálogo para ver mais fotos.</p>
+    <div class="catalogo-banner">
+      <img
+        src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80"
+        alt="Foto de capa do catálogo"
+        loading="lazy"
+      />
+      <div class="catalogo-banner-overlay"></div>
+      <div class="catalogo-banner-text">Catálogos</div>
+    </div>
+    <div class="grid">
+      <a class="card catalogo-item" href="#galeria-ensaio" data-catalog="ensaio" aria-haspopup="dialog" aria-controls="catalogModal" aria-label="Abrir catálogo: Ensaio Feminino">
+        <img
+          class="catalogo-img"
+          src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80"
+          alt="Ensaio feminino em luz suave"
+          loading="lazy"
+        />
+        <div class="catalogo-label">Ensaio Feminino</div>
+      </a>
+      <a class="card catalogo-item" href="#galeria-corporativo" data-catalog="corporativo" aria-haspopup="dialog" aria-controls="catalogModal" aria-label="Abrir catálogo: Retratos Corporativos">
+        <img
+          class="catalogo-img"
+          src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80"
+          alt="Retrato corporativo com elegância"
+          loading="lazy"
+        />
+        <div class="catalogo-label">Retratos Corporativos</div>
+      </a>
+      <a class="card catalogo-item" href="#galeria-familia" data-catalog="familia" aria-haspopup="dialog" aria-controls="catalogModal" aria-label="Abrir catálogo: Família e Maternidade">
+        <img
+          class="catalogo-img"
+          src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80"
+          alt="Família e maternidade em clima aconchegante"
+          loading="lazy"
+        />
+        <div class="catalogo-label">Família &amp; Maternidade</div>
+      </a>
+      <a class="card catalogo-item" href="#galeria-branding" data-catalog="branding" aria-haspopup="dialog" aria-controls="catalogModal" aria-label="Abrir catálogo: Branding para Negócios">
+        <img
+          class="catalogo-img"
+          src="https://images.unsplash.com/photo-1524503033411-c9566986fc8f?auto=format&fit=crop&w=900&q=80"
+          alt="Branding para negócios com identidade visual"
+          loading="lazy"
+        />
+        <div class="catalogo-label">Branding para Negócios</div>
+      </a>
+      <a class="card catalogo-item" href="#galeria-casamento" data-catalog="casamento" aria-haspopup="dialog" aria-controls="catalogModal" aria-label="Abrir catálogo: Casamento">
+        <img
+          class="catalogo-img"
+          src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80"
+          alt="Ensaio de casamento"
+          loading="lazy"
+        />
+        <div class="catalogo-label">Casamento</div>
+      </a>
+      <a class="card catalogo-item" href="#galeria-igreja" data-catalog="igreja" aria-haspopup="dialog" aria-controls="catalogModal" aria-label="Abrir catálogo: Eventos de Igreja">
+        <img
+          class="catalogo-img"
+          src="https://umadego.carrd.co/assets/images/image01.jpg?v=743d3584"
+          alt="Evento da UMADEGO"
+          loading="lazy"
+        />
+        <div class="catalogo-label">Eventos de Igreja</div>
+      </a>
+    </div>
+    <div class="catalogo-galerias">
+      <div id="galeria-ensaio" class="catalogo-galeria">
+        <div class="catalogo-galeria-header">
+          <h4>Ensaio Feminino</h4>
+          <a class="catalogo-fechar" href="#catalogos">Fechar</a>
+        </div>
+        <div class="catalogo-fotos">
+          <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80" alt="Ensaio feminino em luz suave" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=900&q=80" alt="Retrato feminino em estúdio" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Retrato feminino ao ar livre" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=900&q=80" alt="Ensaio feminino com luz natural" loading="lazy" />
+        </div>
+      </div>
+      <div id="galeria-corporativo" class="catalogo-galeria">
+        <div class="catalogo-galeria-header">
+          <h4>Retratos Corporativos</h4>
+          <a class="catalogo-fechar" href="#catalogos">Fechar</a>
+        </div>
+        <div class="catalogo-fotos">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80" alt="Ambiente corporativo com equipe" loading="lazy" />
+        </div>
+      </div>
+      <div id="galeria-familia" class="catalogo-galeria">
+        <div class="catalogo-galeria-header">
+          <h4>Família &amp; Maternidade</h4>
+          <a class="catalogo-fechar" href="#catalogos">Fechar</a>
+        </div>
+        <div class="catalogo-fotos">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Ensaio em clima aconchegante" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=900&q=80" alt="Família em ensaio ao ar livre" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Mãe com bebê" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1504151932400-72d4384f04b3?auto=format&fit=crop&w=900&q=80" alt="Gestante em ensaio" loading="lazy" />
+        </div>
+      </div>
+      <div id="galeria-branding" class="catalogo-galeria">
+        <div class="catalogo-galeria-header">
+          <h4>Branding para Negócios</h4>
+          <a class="catalogo-fechar" href="#catalogos">Fechar</a>
+        </div>
+        <div class="catalogo-fotos">
+          <img src="https://images.unsplash.com/photo-1524503033411-c9566986fc8f?auto=format&fit=crop&w=900&q=80" alt="Identidade visual e branding" loading="lazy" />
+          <img src="https://thumbor.guiame.com.br/unsafe/smart/https%3A//media.guiame.com.br/archives/2023/09/06/1358235093-frank-mendonca.jpg" alt="Pastor Frank Mendonça (Goiânia)" loading="lazy" style="object-position: center 20%;" />
+          <img src="https://images.unsplash.com/photo-1487014679447-9f8336841d58?auto=format&fit=crop&w=900&q=80" alt="Conteúdo de marca em ambiente criativo" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Ambiente de negócio para branding" loading="lazy" />
+        </div>
+      </div>
+      <div id="galeria-casamento" class="catalogo-galeria">
+        <div class="catalogo-galeria-header">
+          <h4>Casamento</h4>
+          <a class="catalogo-fechar" href="#catalogos">Fechar</a>
+        </div>
+        <div class="catalogo-fotos">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" alt="Foto de casamento" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=900&q=80" alt="Cerimônia de casamento" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=900&q=80" alt="Casal em ensaio de casamento" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80" alt="Noivos em casamento" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=900&q=80" alt="Cerimônia de casamento ao ar livre" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=80" alt="Festa de casamento" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=900&q=80" alt="Detalhes de casamento" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Noivos ao ar livre (foto ilustrativa)" loading="lazy" />
+        </div>
+      </div>
+      <div id="galeria-igreja" class="catalogo-galeria">
+        <div class="catalogo-galeria-header">
+          <h4>Eventos de Igreja</h4>
+          <a class="catalogo-fechar" href="#catalogos">Fechar</a>
+        </div>
+        <div class="catalogo-fotos">
+          <img src="https://umadego.carrd.co/assets/images/image01.jpg?v=743d3584" alt="UMADEGO — evento de jovens" loading="lazy" />
+          <img src="https://umadego.carrd.co/assets/images/image02.jpg?v=743d3584" alt="UMADEGO — culto e louvor" loading="lazy" />
+          <img src="https://thumbor.guiame.com.br/unsafe/840x500/http://media.guiame.com.br/archives/2023/09/06/4117216554-setembro-amarelo.jpg" alt="Ministério Vida — campanha de culto" loading="lazy" />
+          <img src="https://thumbor.guiame.com.br/unsafe/smart/https%3A//media.guiame.com.br/archives/2023/09/06/1358235093-frank-mendonca.jpg" alt="Ministério Vida — Pastor Frank Mendonça" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="section">
+    <h3 class="section-title">Serviços</h3>
+    <div class="grid">
+      <div class="card">
+        <h4>Ensaios personalizados</h4>
+        <p>Direção de pose, roteiro criativo e ambientação para ensaios que valorizam a essência de cada cliente.</p>
+      </div>
+      <div class="card">
+        <h4>Fotografia para marcas</h4>
+        <p>Produção de conteúdo visual para redes sociais, sites e campanhas com foco em identidade e estratégia.</p>
+      </div>
+      <div class="card">
+        <h4>Eventos intimistas</h4>
+        <p>Cobertura de eventos menores, celebrações familiares e encontros especiais com entrega rápida.</p>
+      </div>
+      <div class="card">
+        <h4>Consultoria de imagem</h4>
+        <p>Apoio na preparação de figurino, cenário e storytelling visual antes de cada sessão.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="historico" class="section">
+    <h3 class="section-title">Histórico</h3>
+    <div class="history">
+      <div class="history-text">
+        <p>
+          Julia Menonça iniciou sua trajetória fotografando retratos autorais e desenvolveu uma linguagem própria que
+          combina tons terrosos, luz suave e narrativas intimistas. Ao longo dos anos, conduziu ensaios em estúdio e
+          externos, colaborando com empreendedoras, artistas e famílias.
+        </p>
+        <p>
+          Seu trabalho é guiado por escuta ativa, direção acolhedora e cuidado com a entrega final. Hoje, Julia mantém
+          um acervo sólido de projetos realizados em Goiânia e em outras capitais, sempre com foco em experiências
+          memoráveis.
+        </p>
+      </div>
+      <div class="history-media">
+        <img
+          class="history-photo"
+          src="./img/fotojulia.jpeg"
+          alt="Foto de Julia Menonça"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section id="trabalhos" class="section">
+    <h3 class="section-title">Com o que trabalha</h3>
+    <div class="chips">
+      <span class="chip">Câmeras Full Frame</span>
+      <span class="chip">Lentes 35mm e 85mm</span>
+      <span class="chip">Iluminação contínua</span>
+      <span class="chip">Luz natural</span>
+      <span class="chip">Direção criativa</span>
+      <span class="chip">Edição profissional</span>
+      <span class="chip">Tons terrosos</span>
+    </div>
+  </section>
+
+  <section id="contato" class="section">
+    <h3 class="section-title">Contato</h3>
+    <div class="card contato">
+      <p><strong>Local:</strong> Goiânia, GO</p>
+      <p><strong>Telefone/WhatsApp:</strong> (62) 9 9566-5173</p>
+      <p><strong>E-mail:</strong> contato@juliamenonca.com.br</p>
+      <p><strong>Instagram:</strong> @juliamfotografias</p>
+      <a class="cta" href="mailto:contato@juliamenonca.com.br">Agendar sessão</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Julia Menonça Fotografia. Todos os direitos reservados.
+  </footer>
+
+  <div class="modal" id="catalogModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalTitle">Catálogo</h3>
+        <button class="modal-close" type="button">Fechar</button>
+      </div>
+      <div class="modal-viewer">
+        <img class="modal-viewer-img" id="modalViewerImg" alt="" />
+        <button class="modal-nav modal-prev" type="button" aria-label="Foto anterior">Anterior</button>
+        <button class="modal-nav modal-next" type="button" aria-label="Próxima foto">Próxima</button>
+      </div>
+      <div class="modal-thumbs" id="modalThumbs" aria-label="Fotos do catálogo"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
